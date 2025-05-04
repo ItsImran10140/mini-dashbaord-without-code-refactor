@@ -74,7 +74,7 @@ const Sidebar = () => {
       teamName: "Clockworks",
     },
     {
-      image: "/map.png",
+      image: "/maps.png",
       tilte: "X Cold DM Agent",
       description: "automate/x-dm-outreach-agent",
       body: "Connect your X account, define your ICP, and let the agent auto-DM prospects daily with smart, human-like copy.",
@@ -275,9 +275,9 @@ const Sidebar = () => {
                   {cardContent.map((data, i) => (
                     <div
                       key={i}
-                      className="animate-rotate-border bg-conic/[from_var(--border-angle)] from-zinc-900 via-[#B3B3B3] to-zinc-900 p-[0.75px] rounded-sm"
+                      className="animate-rotate-border  bg-conic/[from_var(--border-angle)] from-zinc-900 via-[#B3B3B3] to-zinc-900 p-[1.5px] rounded-sm"
                     >
-                      <div className="p-4 bg-[#0A0A0A] rounded-md shadow-[inset_0px_0px_7px_2px_rgba(255,255,255,0.08)] h-full">
+                      <div className="p-4 bg-[#0A0A0A]  rounded-md shadow-[inset_0px_0px_7px_2px_rgba(255,255,255,0.08)] h-full">
                         <div className="flex">
                           <div className="mr-4 flex-shrink-0">
                             <Image
